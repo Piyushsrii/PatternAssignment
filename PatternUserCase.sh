@@ -1,6 +1,6 @@
 Welcome
 
-#!/bin/bash -x
+#!/bin/bash -x          UserCase------->3
 echo "Enter Your First name"
 read code
 pattern="^[a-z]*[.]+[a-z]*[@]+[a-z]*[.]+[a-z]{2,}[.]+[a-z]{2,}$"
