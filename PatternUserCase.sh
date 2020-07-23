@@ -1,6 +1,6 @@
 Welcome
 
-#!/bin/bash -x
+#!/bin/bash -x        UserCase------->7
 echo "enter password code"
 read str
 if [[ ${#str} -ge 8 && "$str"==[[:lower:]]+ && "$str"==[[:upper:]]+ ]]
