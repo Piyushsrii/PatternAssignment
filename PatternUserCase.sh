@@ -4,11 +4,16 @@ Welcome
 echo "Enter Your First name"
 read code
 pattern="^[A-Za-z]*$"
+#!/bin/bash -x           UserCase------->2
+echo "Enter Your LastName"
+read code
+pattern="^[[:upper:]]{1}[a-z]{3,}[ ]+[[:upper:]]{1}[a-z]{3,}$"
 if [[ $code =~ $pattern ]]
 then
 echo found
 else
 echo not found
-Fi
+fi
+
 
 
