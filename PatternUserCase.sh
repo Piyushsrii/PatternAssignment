@@ -25,6 +25,10 @@ if [[ ${#str} -ge 8 ]]
 echo "enter password code"
 read str
 if [[ ${#str} -ge 8 && "$str"==[[:lower:]]+ ]]
+#!/bin/bash -x        UserCase------->7
+echo "enter password code"
+read str
+if [[ ${#str} -ge 8 && "$str"==[[:lower:]]+ && "$str"==[[:upper:]]+ ]]
 then
 echo found
 else
