@@ -4,14 +4,17 @@ Welcome
 echo "Enter Your First name"
 read code
 pattern="^[A-Za-z]*$"
+if [[ $code =~ $pattern ]]
 #!/bin/bash -x           UserCase------->2
 echo "Enter Your LastName"
 read code
 pattern="^[[:upper:]]{1}[a-z]{3,}[ ]+[[:upper:]]{1}[a-z]{3,}$"
+if [[ $code =~ $pattern ]]
 #!/bin/bash -x          UserCase------->3
 echo "Enter Your First name"
 read code
 pattern="^[a-z]*[.]+[a-z]*[@]+[a-z]*[.]+[a-z]{2,}[.]+[a-z]{2,}$"
+if [[ $code =~ $pattern ]]
 #!/bin/bash -x         UserCase------>4
 echo "enter mobile no."
 read code
